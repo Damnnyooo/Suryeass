@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121111;
+        }
+        header {
+            background: #000000;
+            color: #fffb00;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project {
+            background: #525657;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(30% - 40px);
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .profil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: #686363;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profil img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .profil h2 {
+            margin-bottom: 10px;
+        }
+        .profil p {
+            text-align: center;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portofolio Saya</h1>
+    <p>Selamat datang di portofolio saya! Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
+</header>
+
+<div class="container">
+    <div class="profil">
+        <img src="mas mas ganteng.jpeg" alt="Foto Profil">
+        <h2>Surya Dutia Putra Pannadhika</h2>
+        <p>Saya adalah seorang siswa dengan keahlihan dibidang Teknik Jaringan Komputer dan Jaringan.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> suryadutia@gmail.com</p>
+        </div>
+    </div>
+    <div id="main">
+        <div class="project">
+            <img src="pkl.jpeg" alt="Proyek 1">
+            <h2>Proyek 1</h2>
+            <p>Melakukan perawatan pada kabel Fiber Optic.</p>
+        </div>
+        <div class="project">
+            <img src="tengah.jpeg" alt="Proyek 2">
+            <h2>Proyek 2</h2>
+            <p>Melakukan Inspeksi POP agar jaringan dapat berlangsung dengan stabil.</p>
+        </div>
+        <div class="project">
+            <img src="kanan.jpeg" alt="Proyek 3">
+            <h2>Proyek 3</h2>
+            <p>Melakukan pengecekan dan perbaikan wifi dirumah pelanggan.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
